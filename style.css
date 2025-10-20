@@ -1,0 +1,159 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+}
+
+
+header {
+  background-color: #3c0cc2;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  
+}
+
+.logo img {
+  height: 150px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+.banner {
+  background: url('imagem/fundo.png') center/cover no-repeat;
+  color: #0074b8;
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.botao-produtos {
+  background-color: #fff;
+  color: #0074b8;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #0074b8;
+}
+
+.produtos {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.produtos h2 {
+  margin-bottom: 40px;
+}
+
+.lista-produtos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.produto {
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 220px;
+  border-radius: 8px;
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+}
+
+.produto h3 {
+  margin: 10px 0;
+}
+
+
+.sobre {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.sobre h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.contato {
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contato h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+form button {
+  background-color: #2f2fc4;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
